@@ -126,6 +126,8 @@ void Shift_Firmware(Firmware_Data_t *Firmware)
         NVIC->ICPR[i] = 0xFFFFFFFFU;
     }
 		
+		SetBootStatus(Power_On);
+		
 		SCB->VTOR = app_addr;
 		__set_MSP(app_sp);
 		
@@ -149,6 +151,7 @@ int main(void)
 	BootStatus_Init();
 	BootStatus_t status = GetBootStatus();
 	int Firmware0_Check = 0;
+	
 	switch(status)
 	{
 		case Shifting0:	

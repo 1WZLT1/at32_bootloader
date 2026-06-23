@@ -25,7 +25,7 @@
  *	下行指令
  **************************************************************/
 #define SerialBoot_FrameCMD_Version			0x0c	//	获得版本
-#define SerialBoot_FrameCMD_Keep 			0x0d	//	保持连接
+#define SerialBoot_FrameCMD_Keep 			  0x0d	//	保持连接
 #define SerialBoot_FrameCMD_Unlock 			0x0e	//	解锁
 #define SerialBoot_FrameCMD_Erasure 		0x0f	//	擦除
 #define SerialBoot_FrameCMD_Download 		0x10	//	下载

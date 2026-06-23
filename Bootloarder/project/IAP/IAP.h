@@ -52,5 +52,6 @@ typedef enum BootStatus{
 
 void IAP(void);
 int Firmware_Check(Firmware_Data_t* Firmware, int block);
+void SetBootStatus(BootStatus_t status);
 #endif
 

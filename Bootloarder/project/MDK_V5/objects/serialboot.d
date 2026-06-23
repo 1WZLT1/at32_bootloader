@@ -27,3 +27,4 @@
 .\objects\serialboot.o: ..\..\libraries\drivers\inc\at32f435_437_misc.h
 .\objects\serialboot.o: ..\inc\at32f435_437_int.h
 .\objects\serialboot.o: ..\system\Hardware_Name.h
+.\objects\serialboot.o: ..\IAP\IAP.h

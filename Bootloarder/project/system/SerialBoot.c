@@ -5,6 +5,7 @@
 #include "at32f435_437_int.h"
 #include "Hardware_Name.h"
 #include "at32f435_437_flash.h"
+#include "IAP.h"
 
 static int BootStatus = 0;
 static int ReceiveStatus = 0;
@@ -245,6 +246,27 @@ void SerialBoot_SendOver()
 	SerialBoot_Send(SerialBoot_FrameCMD_Status, buf, 2);
 }
 
+static void SerialBoot_FirmwareName(const Firmware_Data_t* Firmware,uint32_t ID)
+{
+	static uint32_t buffer[64];
+	static SerialBoot_Firmware_Name_t* const list = (SerialBoot_Firmware_Name_t*)buffer;
+	int index = Firmware->Firmware_Name;
+	uint32_t block = Firmware->Firmware_Block;
+	const uint8_t* buf = (const uint8_t*)Firmware;
+	int len = buf[index++];
+	if(block > 2)
+	{
+		return;
+	}
+	list->ID = ID;
+	for(int i = 0;i < len;i++)
+	{
+		list->Name_UTF8[i] = buf[index++];
+	}
+	SerialBoot_Send(SerialBoot_FrameCMD_Version, (uint8_t*)buffer, len + 4);
+}
+
+#define Firmware0		((Firmware_Data_t*)(Firmware0_Base))
 static void SerialBoot_Name()
 {
 	static uint32_t buffer[64];
@@ -252,6 +274,14 @@ static void SerialBoot_Name()
 	list->ID = 10;
 	int len = Get_Hardware_Name(&list->Name_UTF8[0]);
 	SerialBoot_Send(SerialBoot_FrameCMD_Version, (uint8_t*)buffer, len + 4);
+	int Firmware0_Check = 0;
+	Firmware0_Check = !Firmware_Check(Firmware0, 0);
+	
+	if(Firmware0_Check)
+	{
+		SerialBoot_FirmwareName(Firmware0, 11);
+		SerialBoot_FirmwareName(Firmware0, 14);
+	}
 }
 
 static uint32_t Chip_ID[4];
@@ -393,7 +423,6 @@ void SerialBoot_Download_Message()
 		return;
 	}
 	
-	//Firmware1_Check = 0;
 	uint32_t Addr =
 		((((Buffer[0]) * 0x100 + Buffer[1]) * 0x100 + Buffer[2]) * 0x100 + Buffer[3]);
 	int Len = Buffer[4];
@@ -424,15 +453,6 @@ void SerialBoot_MCUReset()
 	buf[1] = SerialBoot_StatusType_Break;
 	SerialBoot_Send(SerialBoot_FrameCMD_Status, buf, 2);
 	
-	
-//	Firmware0_Check = !Firmware_Check(Firmware0, 0);
-//	if (Firmware0_Check)
-//	{
-//		SetBootStatus(Shifting0);
-//		ResetMCU();
-//	}
-
-//	SetBootStatus(Power_On);
 	flash_lock();
 	ResetMCU();
 }
