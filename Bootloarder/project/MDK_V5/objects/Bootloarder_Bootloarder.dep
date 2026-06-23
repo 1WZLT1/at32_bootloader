@@ -1,0 +1,547 @@
+Dependencies for Project 'Bootloarder', Target 'Bootloarder': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\src\at32f435_437_int.c)(0x6A3254D2)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_int.o --omf_browse .\objects\at32f435_437_int.crf --depend .\objects\at32f435_437_int.d)
+I (..\inc\at32f435_437_int.h)(0x6A311986)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+I (..\system\ring_buffer.h)(0x6A30FABA)
+I (..\system\memory_alloc.h)(0x6A2B719F)
+I (..\hardware\uart_serve.h)(0x6A339A85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\inc\wk_dma.h)(0x6A3118A0)
+I (..\inc\at32f435_437_wk_config.h)(0x6A3118A0)
+I (..\system\SerialBoot.h)(0x6A338F59)
+F (..\src\at32f435_437_wk_config.c)(0x6A3118A0)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_wk_config.o --omf_browse .\objects\at32f435_437_wk_config.crf --depend .\objects\at32f435_437_wk_config.d)
+I (..\inc\at32f435_437_wk_config.h)(0x6A3118A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\src\main.c)(0x6A39F9D2)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\inc\at32f435_437_wk_config.h)(0x6A3118A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+I (..\inc\wk_tmr.h)(0x6A3118A0)
+I (..\inc\wk_usart.h)(0x6A3118A0)
+I (..\inc\wk_dma.h)(0x6A3118A0)
+I (..\inc\wk_system.h)(0x6A3118A0)
+I (..\hardware\uart_serve.h)(0x6A339A85)
+I (..\system\ring_buffer.h)(0x6A30FABA)
+I (..\system\memory_alloc.h)(0x6A2B719F)
+I (..\IAP\IAP.h)(0x6A39F9B3)
+F (..\src\wk_system.c)(0x6A3118A0)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\wk_system.o --omf_browse .\objects\wk_system.crf --depend .\objects\wk_system.d)
+I (..\inc\wk_system.h)(0x6A3118A0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\src\wk_usart.c)(0x6A311DCF)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\wk_usart.o --omf_browse .\objects\wk_usart.crf --depend .\objects\wk_usart.d)
+I (..\inc\wk_usart.h)(0x6A3118A0)
+I (..\inc\at32f435_437_wk_config.h)(0x6A3118A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\src\wk_dma.c)(0x6A323899)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\wk_dma.o --omf_browse .\objects\wk_dma.crf --depend .\objects\wk_dma.d)
+I (..\inc\wk_dma.h)(0x6A3118A0)
+I (..\inc\at32f435_437_wk_config.h)(0x6A3118A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\src\wk_tmr.c)(0x6A31189F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\wk_tmr.o --omf_browse .\objects\wk_tmr.crf --depend .\objects\wk_tmr.d)
+I (..\inc\wk_tmr.h)(0x6A3118A0)
+I (..\inc\at32f435_437_wk_config.h)(0x6A3118A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_crm.c)(0x68BE4AE1)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_crm.o --omf_browse .\objects\at32f435_437_crm.crf --depend .\objects\at32f435_437_crm.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_tmr.c)(0x68B4F978)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_tmr.o --omf_browse .\objects\at32f435_437_tmr.crf --depend .\objects\at32f435_437_tmr.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_gpio.c)(0x68B4F978)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_gpio.o --omf_browse .\objects\at32f435_437_gpio.crf --depend .\objects\at32f435_437_gpio.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_usart.c)(0x68B4F978)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_usart.o --omf_browse .\objects\at32f435_437_usart.crf --depend .\objects\at32f435_437_usart.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_pwc.c)(0x68B4F978)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_pwc.o --omf_browse .\objects\at32f435_437_pwc.crf --depend .\objects\at32f435_437_pwc.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_dma.c)(0x68B4F978)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_dma.o --omf_browse .\objects\at32f435_437_dma.crf --depend .\objects\at32f435_437_dma.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_debug.c)(0x68B4F978)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_debug.o --omf_browse .\objects\at32f435_437_debug.crf --depend .\objects\at32f435_437_debug.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_flash.c)(0x690873AC)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_flash.o --omf_browse .\objects\at32f435_437_flash.crf --depend .\objects\at32f435_437_flash.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_misc.c)(0x68B4F978)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_misc.o --omf_browse .\objects\at32f435_437_misc.crf --depend .\objects\at32f435_437_misc.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\..\libraries\drivers\src\at32f435_437_ertc.c)(0x68B4F978)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\at32f435_437_ertc.o --omf_browse .\objects\at32f435_437_ertc.crf --depend .\objects\at32f435_437_ertc.d)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (.\startup_at32f435_437.s)(0x6A31189F)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "AT32F435CGU7 SETA 1"--list .\listings\startup_at32f435_437.lst --xref -o .\objects\startup_at32f435_437.o --depend .\objects\startup_at32f435_437.d)
+F (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.c)(0x68B4F976)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\system_at32f435_437.o --omf_browse .\objects\system_at32f435_437.crf --depend .\objects\system_at32f435_437.d)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\IAP\IAP.c)(0x6A33B169)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\iap.o --omf_browse .\objects\iap.crf --depend .\objects\iap.d)
+I (..\IAP\IAP.h)(0x6A39F9B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\system\SerialBoot.h)(0x6A338F59)
+I (..\hardware\uart_serve.h)(0x6A339A85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\system\ring_buffer.h)(0x6A30FABA)
+I (..\system\memory_alloc.h)(0x6A2B719F)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+I (..\inc\at32f435_437_int.h)(0x6A311986)
+I (..\system\Decode.h)(0x6A268B2F)
+F (..\hardware\uart_serve.c)(0x6A339A6E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\uart_serve.o --omf_browse .\objects\uart_serve.crf --depend .\objects\uart_serve.d)
+I (..\hardware\uart_serve.h)(0x6A339A85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\system\ring_buffer.h)(0x6A30FABA)
+I (..\system\memory_alloc.h)(0x6A2B719F)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+I (..\inc\wk_dma.h)(0x6A3118A0)
+I (..\inc\at32f435_437_wk_config.h)(0x6A3118A0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\system\ring_buffer.c)(0x6A30FF2E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\ring_buffer.o --omf_browse .\objects\ring_buffer.crf --depend .\objects\ring_buffer.d)
+I (..\system\ring_buffer.h)(0x6A30FABA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\system\memory_alloc.h)(0x6A2B719F)
+F (..\system\memory_alloc.c)(0x6A2B72C9)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\memory_alloc.o --omf_browse .\objects\memory_alloc.crf --depend .\objects\memory_alloc.d)
+I (..\system\memory_alloc.h)(0x6A2B719F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\system\SerialBoot.c)(0x6A3398E2)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\serialboot.o --omf_browse .\objects\serialboot.crf --depend .\objects\serialboot.d)
+I (..\system\SerialBoot.h)(0x6A338F59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\system\Decode.h)(0x6A268B2F)
+I (..\inc\wk_dma.h)(0x6A3118A0)
+I (..\inc\at32f435_437_wk_config.h)(0x6A3118A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+I (..\inc\at32f435_437_int.h)(0x6A311986)
+I (..\system\Hardware_Name.h)(0x6A325CAE)
+F (..\system\Decode.c)(0x6A3364E6)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\decode.o --omf_browse .\objects\decode.crf --depend .\objects\decode.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\system\Decode.h)(0x6A268B2F)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68B4F976)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x68B4F976)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x68B4F978)
+I (..\inc\at32f435_437_conf.h)(0x6A33A6D6)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x68B4F978)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x68B4F978)
+F (..\system\Hardware_Name.c)(0x6A325D93)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\IAP -I ..\system -I ..\hardware-I.\RTE\_Bootloarder-IC:\Users\Dell\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DAT32F435CGU7 -DAT32F435CGU7 -DUSE_STDPERIPH_DRIVER -DBOARD_ID="HW_ID_IMU_VF435_V1_688_1111" -DBOOT_BASE="0x08010000" -DFirmware0_Base="0x08010000"-o .\objects\hardware_name.o --omf_browse .\objects\hardware_name.crf --depend .\objects\hardware_name.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69368F74)
+I (..\system\Hardware_Name.h)(0x6A325CAE)
