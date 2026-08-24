@@ -104,6 +104,7 @@ static inline BootStatus_t GetBootStatus(void)
 
 /* private user code ---------------------------------------------------------*/
 /* add user code begin 0 */
+int ii = 0;
 void Shift_Firmware(Firmware_Data_t *Firmware)
 {
     uint32_t app_addr;
@@ -133,6 +134,11 @@ void Shift_Firmware(Firmware_Data_t *Firmware)
 		
 		__enable_irq();
 		
+		usart_interrupt_enable(USART1,USART_IDLE_INT,FALSE);
+		dma_interrupt_enable(DMA1_CHANNEL2,DMA_FDT_INT,FALSE);
+		
+		ii += 1;
+		
 		((AppEntry_t)app_reset)();
 		while (1);
 }
@@ -158,6 +164,10 @@ int main(void)
 			Firmware0_Check = !Firmware_Check(Firmware0, 0);
 			if(Firmware0_Check)
 				Shift_Firmware(Firmware0);
+			else 
+			{
+				ii = 100;
+			}
 			break;
 	}
   /* add user code end 1 */

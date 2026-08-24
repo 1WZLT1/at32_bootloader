@@ -111,7 +111,7 @@ void IAP()
 	{
 		if (serial_available())
 		{
-			until = Micros() + 10000000;
+			until = Micros() + 5000000;
 			int value = serial_read();
 			if (value >= 0)
 			{
