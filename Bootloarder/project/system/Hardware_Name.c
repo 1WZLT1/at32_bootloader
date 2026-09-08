@@ -1,7 +1,7 @@
 #include "stdint.h"
 #include "Hardware_Name.h"
 
-static const uint8_t Hardware_Name[] = "DETA-1";
+static const uint8_t Hardware_Name[] = "DETA-40";
 
 int Get_Hardware_Name(uint8_t *buffer)
 {
@@ -16,7 +16,21 @@ int Get_Hardware_Name(uint8_t *buffer)
 #define AT32_UID_BASE_ADDR       0x1FFFF7E8UL
 #define AT32_FLASH_SIZE_ADDR     0x1FFFF7E0UL
 
-#define FDI_CHIP_AT32F435        0x0435U
+typedef struct
+{
+  uint32_t IDCODE;  /*!< MCU device ID code,               Address offset: 0x00 */
+  uint32_t CR;      /*!< Debug MCU configuration register, Address offset: 0x04 */
+  uint32_t APB1FZ;  /*!< Debug MCU APB1 freeze register,   Address offset: 0x08 */
+  uint32_t APB2FZ;  /*!< Debug MCU APB2 freeze register,   Address offset: 0x0C */
+}DBGMCU_TypeDef;
+
+#define DBGMCU              ((DBGMCU_TypeDef *) 0xE0042000)
+#define IDCODE_DEVID_MASK    0x00000FFFU
+
+uint16_t GetDEVID()
+{
+	return((DBGMCU->IDCODE) & IDCODE_DEVID_MASK);
+}
 
 uint32_t FDI_Get_ChipID_128(uint16_t product, uint32_t *buf)
 {
@@ -32,7 +46,7 @@ uint32_t FDI_Get_ChipID_128(uint16_t product, uint32_t *buf)
     flash_size_kb =
         (*(const volatile uint32_t *)AT32_FLASH_SIZE_ADDR) &
         0xFFFFU;
-    code = FDI_CHIP_AT32F435;
+    code = GetDEVID();
 
 
     /* AT32�ṩ96λUID */

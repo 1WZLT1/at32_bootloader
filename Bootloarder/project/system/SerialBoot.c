@@ -284,7 +284,7 @@ static void SerialBoot_Name()
 	}
 }
 
-static uint32_t Chip_ID[4];
+uint32_t Chip_ID[4];
 #define HW_ID_IMU_VF435_V1_688_1111  0x0001010000
 
 #define Firmware0		((Firmware_Data_t*)(Firmware0_Base))
